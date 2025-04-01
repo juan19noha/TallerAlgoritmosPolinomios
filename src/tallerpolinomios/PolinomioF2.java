@@ -137,8 +137,5 @@ public Termino[] redimensionar(int pos){
     }
     return true;
     } 
-     public PolinomioF1 sumarPolinomios(PolinomioF1 a, PolinomioF3 b) { 
-        PolinomioF1 resultado = this.convertirA_F1().sumar(a); 
-        return resultado.sumar(b.convertirA_F1()); 
-    } 
+   
 }
