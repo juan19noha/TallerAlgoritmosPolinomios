@@ -130,16 +130,6 @@ public class PolinomioF1 {
         }
         return polF3;
     }
-    public PolinomioF2 sumar(PolinomioF3 b) {
-        PolinomioF1 sumaF1 = this.sumar(b.convertirA_F1());
-        return sumaF1.convertirA_F2();
-    }
-
-    // Método para sumar PolF2 con PolF1 y PolF3 y devolver PolF1
-    public PolinomioF1 sumarPolinomios(PolinomioF1 a, PolinomioF3 b) {
-        return this.sumar(a).sumar(b.convertirA_F1());
-    }
-
 
 }
 
