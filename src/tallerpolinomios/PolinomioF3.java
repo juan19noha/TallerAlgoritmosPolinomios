@@ -131,7 +131,5 @@ public class PolinomioF3 {
         }
         return derivada;
     }
-   public PolinomioF1 multiplicar(PolinomioF2 b) { 
-        return this.multiplicar(b.convertirA_F3()).convertirA_F1(); 
-    } 
+  
 }
